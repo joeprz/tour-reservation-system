@@ -225,60 +225,6 @@ flutter build ios --release \
 ![Device configuration and local WiFi sync status](assets/screenshots/a5.jpeg)
 
 
----
-
-## Why This Project Stands Out
-
-### For Recruiters
-✅ **Production-Grade Architecture:** Clean, testable, and scalable codebase  
-✅ **Real-World Problem Solving:** Offline-first sync, QR workflows, local networking  
-✅ **State Management at Scale:** Riverpod with proper provider organization  
-✅ **Security-Aware:** No hardcoded secrets, environment-based configuration  
-✅ **Business Logic:** Revenue reporting, expense tracking, inventory management  
-✅ **Mobile Best Practices:** Role-based UIs, touch-optimized, accessibility-ready  
-
-### Technical Depth
-- Local HTTP server implementation (networking knowledge)
-- SQLite migrations and query optimization
-- Bidirectional sync with conflict resolution
-- QR code scanning and validation pipelines
-- State management with Riverpod and proper dependencies
-
----
-
-## Future Improvements
-
-- [ ] Add unit and widget tests (current coverage: ~60%)
-- [ ] Implement image capture during check-in for insurance purposes
-- [ ] Add multilingual support (Spanish/English toggle)
-- [ ] Email/SMS notifications for reservation confirmations
-- [ ] Analytics dashboard with charts and export to PDF
-- [ ] Offline map integration for tour route tracking
-- [ ] Push notifications for sync alerts
-- [ ] User authentication with role-based access control
-- [ ] Backup and restore functionality for SQLite database
-- [ ] Integration with payment providers (Mercado Pago, Stripe)
-
----
-
-## Project Structure & Git Conventions
-
-**Branch naming:**
-- `main` — production-ready code
-- `develop` — integration branch
-- `feature/checkin-qr` — feature branches
-- `bugfix/sync-conflict` — bug fixes
-
-**Commit messages:**
-```
-feat: add QR duplicate detection in check-in flow
-fix: resolve offline sync conflicts with timestamp strategy
-refactor: extract sync logic into dedicated service
-docs: update database schema README
-```
-
----
-
 ## Environment Configuration
 
 This project uses **compile-time Dart defines** for configuration:
