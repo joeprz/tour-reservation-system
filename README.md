@@ -209,21 +209,30 @@ flutter build ios --release \
 
 ## Screenshots
 
-### Dashboard (Admin/Tablet)
-![Dashboard showing revenue cards and reservation count](assets/screenshots/a1.jpeg)
-
-### Reservation Management
-![Reservations list with filters and quick actions](assets/screenshots/a2.jpeg)
-
-### QR Check-in (Guide/Mobile)
-![Mobile interface with QR scanner active](assets/screenshots/a4.jpeg)
-
-### Reports & Analytics
-![Business reporting dashboard with revenue and expense breakdown](assets/screenshots/a3.jpeg)
-
-### Settings & Sync
-![Device configuration and local WiFi sync status](assets/screenshots/a5.jpeg)
-
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%">
+        <b>Dashboard (Admin/Tablet)</b><br>
+        <img src="assets/screenshots/a1.jpeg" width="250" alt="Dashboard">
+      </td>
+      <td width="50%">
+        <b>Reservation Management</b><br>
+        <img src="assets/screenshots/a2.jpeg" width="250" alt="Reservations">
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <b>QR Check-in (Guide/Mobile)</b><br>
+        <img src="assets/screenshots/a4.jpeg" width="250" alt="QR Check-in">
+      </td>
+      <td width="50%">
+        <b>Reports & Analytics</b><br>
+        <img src="assets/screenshots/a3.jpeg" width="250" alt="Reports">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Environment Configuration
 
